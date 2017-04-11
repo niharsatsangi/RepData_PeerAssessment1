@@ -32,7 +32,7 @@ number of steps taken per day is 10395(NA's omitted).
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](Directory of Figures/meansteps-1.png)
+(Directory of Figures/meansteps-1.png)
 
 What is the average daily activity pattern? 
 -------------------------------------------
@@ -43,7 +43,7 @@ What is the average daily activity pattern?
       theme_bw()
     print(dayline)
 
-![](Directory of Figures/avgdaily-1.png)
+(Directory of Figures/avgdaily-1.png)
 
 The five minute interval with the highest mean step-count is interval \#
 835 with a mean of 206.1698113 steps.
@@ -60,7 +60,7 @@ data.
          ylab="Count of complete cases"
          )
 
-![](Directory of Figures/unnamed-chunk-1-1.png)
+(Directory of Figures/unnamed-chunk-1-1.png)
 
 Interpolation is done by using the average of the previous valid
 observation and the next valid observation, or the average for the
@@ -110,7 +110,7 @@ Histogram after the missing values have been imputed
 
     ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 
-![](Directory of Figures/hist_imputedmissingvalues-1.png)
+(Directory of Figures/hist_imputedmissingvalues-1.png)
 
 The mean and median total steps are 9354.2295082 and 10395, for the
 NA-imputed data the mean and median are 9707.219301 and 1.057110^{4}.
@@ -139,4 +139,4 @@ waking.
       xlab("Interval number")
     print(weekdayplot)
 
-![](Directory of Figures/weekdayandweekend-1.png)
+(Directory of Figures/weekdayandweekend-1.png)
